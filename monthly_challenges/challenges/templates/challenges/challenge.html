@@ -1,11 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-<h1>{{ month_name|title }} challenge</h1>
-<h2>{{ text }}</h2>
-</body>
-</html>
+{% extends "base.html" %}
+
+{% block page_title %}
+{{ month_name|title }} challenge
+{% endblock %}
+
+{% block content %}
+    {% include "./includes/header.html" %}
+
+    <h1>{{ month_name|title }} challenge</h1>
+    {% if text is not None %}
+        <h2>{{ text }}</h2>
+    {% else %}
+        <h2>No challenges</h2>
+    {% endif %}
+{% endblock %}
