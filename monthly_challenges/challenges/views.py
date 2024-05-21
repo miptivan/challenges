@@ -6,17 +6,17 @@ from django.urls import reverse
 # Create your views here.
 
 monthly_challenges = {
-    "january": "challenge 1",
-    "february": "challenge 2",
-    "march": "challenge 3",
-    "april": "challenge 4",
-    "may": "challenge 5",
-    "june": "challenge 6",
-    "july": "challenge 7",
-    "august": "challenge 8",
-    "september": "challenge 9",
-    "october": "challenge 10",
-    "november": "challenge 11",
+    "january": "challenge.css 1",
+    "february": "challenge.css 2",
+    "march": "challenge.css 3",
+    "april": "challenge.css 4",
+    "may": "challenge.css 5",
+    "june": "challenge.css 6",
+    "july": "challenge.css 7",
+    "august": "challenge.css 8",
+    "september": "challenge.css 9",
+    "october": "challenge.css 10",
+    "november": "challenge.css 11",
     "december": None
 }
 
